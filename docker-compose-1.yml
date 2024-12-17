@@ -1,0 +1,26 @@
+
+services:
+  oracle-xe:
+    image: container-registry.oracle.com/database/express:21.3.0-xe
+    container_name: oracle-elax-db
+    environment:
+      - ORACLE_PDB=PDB1
+      - ORACLE_PASSWORD=oraclepassword
+      - ORACLE_LISTENER_PASSWORD=listenerpassword
+      - ORACLE_SID=XE
+    ports:
+      - "1521:1521" # port de connexion pour Oracle
+      - "5500:5500" # port de gestion de l'Oracle Database Express
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+    networks:
+      - oracle-net
+    restart: always
+
+networks:
+  oracle-net:
+    driver: bridge
+
+volumes:
+  oracle-data:
+    driver: local

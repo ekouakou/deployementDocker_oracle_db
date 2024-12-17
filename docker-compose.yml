@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  oracle-db:
+    image: gvenzl/oracle-free:23.5-slim-faststart
+    container_name: oracle-elax-db
+    ports:
+      - "1521:1521"  # Port Oracle pour les connexions
+      - "5500:5500"  # Port pour Oracle Enterprise Manager Express
+    environment:
+      ORACLE_PASSWORD: Oracle_12c    # Mot de passe pour l'utilisateur `SYS` et `SYSTEM`
+      ORACLE_CHARACTERSET: AL32UTF8  # Jeu de caractères pour la base de données
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d:ro  # Si vous avez des scripts d'initialisation
+      - oracle_data:/opt/oracle/oradata       # Volume pour persister les données
+      - ./dumps:/opt/oracle/dumps             # Volume pour les fichiers dump
+    restart: unless-stopped
+    shm_size: 1g
+    healthcheck:
+      test: ["CMD", "sqlplus", "-S", "/", "as", "sysdba", "@/healthcheck.sql"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 5m
+
+  payara-server:
+    image: payara/server-full:latest
+    container_name: payara-elax-server
+    ports:
+      - "8087:8080"  # Le port 8080 pour accéder à l'application
+      - "4848:4848"  # Le port pour l'admin console de Payara
+    environment:
+      PAYARA_JVM_OPTIONS: -Dfile.encoding=UTF-8
+    volumes:
+      - ./elax.war:/opt/payara/deployments/elax.war
+      - ./payara-config:/opt/payara/config
+    depends_on:
+      - oracle-db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "--silent", "--fail", "http://localhost:8080/elax", "-o", "/dev/null"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 2m
+
+volumes:
+  oracle_data:
+
+networks:
+  default:
+    driver: bridge

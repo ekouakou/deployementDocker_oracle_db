@@ -1,0 +1,1074 @@
+;;; 
+Import: Release 23.0.0.0.0 - Production on Wed Dec 11 14:38:33 2024
+Version 23.5.0.24.07
+
+Copyright (c) 1982, 2024, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 23ai Free Release 23.0.0.0.0 - Develop, Learn, and Run for Free
+Master table "ELAX_DB"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "ELAX_DB"."SYS_IMPORT_FULL_01":  elax_db/********@FREEPDB1 DUMPFILE=ELAX.dump DIRECTORY=DUMP_DIR FULL=Y 
+Processing object type SCHEMA_EXPORT/USER
+ORA-31685: Object type USER:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+ CREATE USER "ELAX_DB" IDENTIFIED BY VALUES 'S:58D3C865F1D6917D12EC5858E992A36623814D4E75AFAA59D69D68592DF6;697D13F553360367' DEFAULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP"
+ 
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT FLASHBACK ARCHIVE ADMINISTER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ADMINISTER SQL MANAGEMENT OBJECT TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT UPDATE ANY CUBE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT UPDATE ANY CUBE BUILD PROCESS TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY CUBE BUILD PROCESS TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY CUBE BUILD PROCESS TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE CUBE BUILD PROCESS TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT INSERT ANY MEASURE FOLDER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY MEASURE FOLDER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DELETE ANY MEASURE FOLDER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY MEASURE FOLDER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE MEASURE FOLDER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT UPDATE ANY CUBE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT SELECT ANY CUBE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY CUBE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY CUBE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY CUBE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE CUBE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT SELECT ANY CUBE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT INSERT ANY CUBE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY CUBE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DELETE ANY CUBE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY CUBE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY CUBE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE CUBE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT COMMENT ANY MINING MODEL TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY MINING MODEL TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT SELECT ANY MINING MODEL TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY MINING MODEL TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY MINING MODEL TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE MINING MODEL TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ASSEMBLY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ANY ASSEMBLY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY ASSEMBLY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY ASSEMBLY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY ASSEMBLY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ASSEMBLY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY EDITION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY EDITION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY EDITION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE EXTERNAL JOB TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CHANGE NOTIFICATION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY SQL PROFILE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ADMINISTER ANY SQL TUNING SET TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ADMINISTER SQL TUNING SET TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY SQL PROFILE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY SQL PROFILE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT SELECT ANY TRANSACTION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT MANAGE SCHEDULER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ANY CLASS TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ANY PROGRAM TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY JOB TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE JOB TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ADVISOR TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT IMPORT FULL DATABASE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXPORT FULL DATABASE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT GRANT ANY OBJECT PRIVILEGE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT FLASHBACK ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DEBUG ANY PROCEDURE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DEBUG CONNECT SESSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT RESUMABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ON COMMIT REFRESH TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT MERGE ANY VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ADMINISTER DATABASE TRIGGER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY OUTLINE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY OUTLINE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY OUTLINE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY CONTEXT TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY CONTEXT TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE DIMENSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT UNDER ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ANY INDEXTYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT GLOBAL QUERY REWRITE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT QUERY REWRITE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT UNDER ANY VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY INDEXTYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY INDEXTYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY INDEXTYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE INDEXTYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ANY OPERATOR TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY OPERATOR TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY OPERATOR TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY OPERATOR TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE OPERATOR TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ANY LIBRARY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY LIBRARY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY LIBRARY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY LIBRARY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE LIBRARY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT UNDER ANY TYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ANY TYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY TYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY TYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY TYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE TYPE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY DIRECTORY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY DIRECTORY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY MATERIALIZED VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY MATERIALIZED VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY MATERIALIZED VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE MATERIALIZED VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT GRANT ANY PRIVILEGE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ANALYZE ANY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER RESOURCE COST TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP PROFILE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER PROFILE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE PROFILE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY TRIGGER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY TRIGGER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY TRIGGER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE TRIGGER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT EXECUTE ANY PROCEDURE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY PROCEDURE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY PROCEDURE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY PROCEDURE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE PROCEDURE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT FORCE ANY TRANSACTION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT FORCE TRANSACTION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER DATABASE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT AUDIT ANY TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY ROLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT GRANT ANY ROLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY ROLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ROLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP PUBLIC DATABASE LINK TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE PUBLIC DATABASE LINK TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE DATABASE LINK TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT SELECT ANY SEQUENCE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY SEQUENCE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY SEQUENCE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY SEQUENCE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE SEQUENCE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE VIEW TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP PUBLIC SYNONYM TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE PUBLIC SYNONYM TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY SYNONYM TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY SYNONYM TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE SYNONYM TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY INDEX TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY INDEX TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY INDEX TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY CLUSTER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY CLUSTER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY CLUSTER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE CLUSTER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DELETE ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT UPDATE ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT INSERT ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT SELECT ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT COMMENT ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT LOCK ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT BACKUP ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ANY TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE TABLE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP ROLLBACK SEGMENT TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER ROLLBACK SEGMENT TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE ROLLBACK SEGMENT TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP USER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER USER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT BECOME USER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE USER TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT UNLIMITED TABLESPACE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT DROP TABLESPACE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT MANAGE TABLESPACE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER TABLESPACE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE TABLESPACE TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT RESTRICTED SESSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER SESSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT CREATE SESSION TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT AUDIT SYSTEM TO "ELAX_DB"
+ 
+ORA-31685: Object type SYSTEM_GRANT:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+GRANT ALTER SYSTEM TO "ELAX_DB"
+ 
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+ORA-39083: Object type ROLE_GRANT failed to create with error:
+ORA-01932: Role "CONNECT" has not been granted with WITH ADMIN OPTION
+
+Failing sql is:
+ GRANT "CONNECT" TO "ELAX_DB"
+ 
+ORA-39083: Object type ROLE_GRANT failed to create with error:
+ORA-01932: Role "RESOURCE" has not been granted with WITH ADMIN OPTION
+
+Failing sql is:
+ GRANT "RESOURCE" TO "ELAX_DB"
+ 
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+ORA-31685: Object type DEFAULT_ROLE:"ELAX_DB" failed due to insufficient privileges. Failing sql is:
+ ALTER USER "ELAX_DB" DEFAULT ROLE "CONNECT", "RESOURCE"
+ 
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "ELAX_DB"."SNAPSHOTPRODUCT"                 111.3 KB     807 rows
+. . imported "ELAX_DB"."AUDITPRODUCT"                     79.9 KB     584 rows
+. . imported "ELAX_DB"."PISTEAUDIT"                       48.2 KB     367 rows
+. . imported "ELAX_DB"."SCHEDULER$_JOB_ARG"                7.5 KB       3 rows
+. . imported "ELAX_DB"."VENPRODUIT"                       81.4 KB     559 rows
+. . imported "ELAX_DB"."AGENCE"                            9.2 KB       1 rows
+. . imported "ELAX_DB"."ALERTE"                           10.9 KB       5 rows
+. . imported "ELAX_DB"."BILANCAISSE"                      10.1 KB       8 rows
+. . imported "ELAX_DB"."CASHTRANSACTION"                  25.1 KB      97 rows
+. . imported "ELAX_DB"."COMMANDE"                          9.8 KB       5 rows
+. . imported "ELAX_DB"."COMMPRODUIT"                      17.4 KB      61 rows
+. . imported "ELAX_DB"."CORRECTIONSTOCK"                   8.6 KB       2 rows
+. . imported "ELAX_DB"."CSTPRODUIT"                        8.6 KB       2 rows
+. . imported "ELAX_DB"."GROSSISTE"                          11 KB       9 rows
+. . imported "ELAX_DB"."GROSSISTETEMP"                    10.8 KB       8 rows
+. . imported "ELAX_DB"."INVENTAIRE"                        9.3 KB       1 rows
+. . imported "ELAX_DB"."INVPRODUIT"                       25.1 KB      88 rows
+. . imported "ELAX_DB"."LISTE"                            12.2 KB      21 rows
+. . imported "ELAX_DB"."LIVPRODUIT"                       17.1 KB      58 rows
+. . imported "ELAX_DB"."LIVRAISON"                         9.8 KB       5 rows
+. . imported "ELAX_DB"."MODELFACTURE"                      9.1 KB      12 rows
+. . imported "ELAX_DB"."MODEREGLEMENT"                     8.3 KB       7 rows
+. . imported "ELAX_DB"."NOTIFICATION"                       16 KB       3 rows
+. . imported "ELAX_DB"."PARAMS"                           11.4 KB      49 rows
+. . imported "ELAX_DB"."PAYS"                             18.5 KB     248 rows
+. . imported "ELAX_DB"."PRIVILEGE"                        23.7 KB      83 rows
+. . imported "ELAX_DB"."PROAGENCE"                        23.9 KB     107 rows
+. . imported "ELAX_DB"."PRODUIT"                          39.3 KB     107 rows
+. . imported "ELAX_DB"."PROFILE"                           9.5 KB       4 rows
+. . imported "ELAX_DB"."PROFILE_PRIVILEGE"                19.5 KB     198 rows
+. . imported "ELAX_DB"."PROGROSSISTE"                     26.2 KB     107 rows
+. . imported "ELAX_DB"."RAYON"                             8.1 KB       3 rows
+. . imported "ELAX_DB"."REPORT"                           22.4 KB      66 rows
+. . imported "ELAX_DB"."SNAPSHOTCAYEAR"                   22.3 KB       1 rows
+. . imported "ELAX_DB"."SNAPSHOTLIVRAISON"                11.3 KB       1 rows
+. . imported "ELAX_DB"."SNAPSHOTPRODUCTBYCA"              16.4 KB      74 rows
+. . imported "ELAX_DB"."SNAPSHOTPRODUCTMOUVEMENT"         23.4 KB     107 rows
+. . imported "ELAX_DB"."SNAPSHOTVALEURSTOCK"                35 KB       2 rows
+. . imported "ELAX_DB"."SNAPSHOTVALEURSTOCKDAY"           19.1 KB      26 rows
+. . imported "ELAX_DB"."SNAPSHOTVENTE"                    11.7 KB       1 rows
+. . imported "ELAX_DB"."SNAPSHOTVENTEHORAIRE"             49.5 KB     197 rows
+. . imported "ELAX_DB"."SOCIETE"                          14.9 KB       1 rows
+. . imported "ELAX_DB"."TTOMODEREGLEMENT"                  8.7 KB      25 rows
+. . imported "ELAX_DB"."TVA"                               7.2 KB       3 rows
+. . imported "ELAX_DB"."TYPECLIENT"                        8.4 KB       3 rows
+. . imported "ELAX_DB"."TYPEDIFFUSION"                     8.1 KB       5 rows
+. . imported "ELAX_DB"."TYPEINVENTAIRE"                    7.7 KB       4 rows
+. . imported "ELAX_DB"."TYPELISTE"                         8.1 KB       3 rows
+. . imported "ELAX_DB"."TYPEOPERATION"                     7.7 KB       4 rows
+. . imported "ELAX_DB"."TYPEREGLEMENT"                     7.3 KB       5 rows
+. . imported "ELAX_DB"."TYPETIERSPAYANT"                     8 KB       2 rows
+. . imported "ELAX_DB"."TYPEVENTE"                         8.2 KB       5 rows
+. . imported "ELAX_DB"."UTILISATEUR"                      14.3 KB       7 rows
+. . imported "ELAX_DB"."VENTE"                              28 KB      97 rows
+. . imported "ELAX_DB"."BILLETAGE"                           0 KB       0 rows
+. . imported "ELAX_DB"."CLIALERTE"                           0 KB       0 rows
+. . imported "ELAX_DB"."CLIENT"                              0 KB       0 rows
+. . imported "ELAX_DB"."CLIENTTEMP"                          0 KB       0 rows
+. . imported "ELAX_DB"."CLITIERSPAYANT"                      0 KB       0 rows
+. . imported "ELAX_DB"."CLITIERSPAYANTTEMP"                  0 KB       0 rows
+. . imported "ELAX_DB"."COMCLIENT"                           0 KB       0 rows
+. . imported "ELAX_DB"."COMMPRODUCTTEMP"                     0 KB       0 rows
+. . imported "ELAX_DB"."COMPTE"                              0 KB       0 rows
+. . imported "ELAX_DB"."CONTACT"                             0 KB       0 rows
+. . imported "ELAX_DB"."DIFFUSION"                           0 KB       0 rows
+. . imported "ELAX_DB"."DIFFUSIONTEMP"                       0 KB       0 rows
+. . imported "ELAX_DB"."DOCUMENT"                            0 KB       0 rows
+. . imported "ELAX_DB"."ETIQUETTE"                           0 KB       0 rows
+. . imported "ELAX_DB"."ETIQUETTEDETAIL"                     0 KB       0 rows
+. . imported "ELAX_DB"."FACTURE"                             0 KB       0 rows
+. . imported "ELAX_DB"."FACTURETEMP"                         0 KB       0 rows
+. . imported "ELAX_DB"."FACVCTIERSPAYANT"                    0 KB       0 rows
+. . imported "ELAX_DB"."FACVCTIERSPAYANTTEMP"                0 KB       0 rows
+. . imported "ELAX_DB"."HISNOTIFICATION"                     0 KB       0 rows
+. . imported "ELAX_DB"."HISVENCLITIERSPAYANT"                0 KB       0 rows
+. . imported "ELAX_DB"."HISVENPRODUIT"                       0 KB       0 rows
+. . imported "ELAX_DB"."HISVENTE"                            0 KB       0 rows
+. . imported "ELAX_DB"."INVPRODUITTEMP"                      0 KB       0 rows
+. . imported "ELAX_DB"."LOT"                                 0 KB       0 rows
+. . imported "ELAX_DB"."LOTDETAIL"                           0 KB       0 rows
+. . imported "ELAX_DB"."NOTIFICATIONTEMP"                    0 KB       0 rows
+. . imported "ELAX_DB"."OPEFACVCTIERSPAYANT"                 0 KB       0 rows
+. . imported "ELAX_DB"."OPERATION"                           0 KB       0 rows
+. . imported "ELAX_DB"."OUVERTURECAISSE"                     0 KB       0 rows
+. . imported "ELAX_DB"."PERIME"                              0 KB       0 rows
+. . imported "ELAX_DB"."PERPRODUIT"                          0 KB       0 rows
+. . imported "ELAX_DB"."PRODUITTEMP"                         0 KB       0 rows
+. . imported "ELAX_DB"."RAYONTEMP"                           0 KB       0 rows
+. . imported "ELAX_DB"."RETOURFOURNISSEUR"                   0 KB       0 rows
+. . imported "ELAX_DB"."RFOPRODUIT"                          0 KB       0 rows
+. . imported "ELAX_DB"."RFOPRODUITTEMP"                      0 KB       0 rows
+. . imported "ELAX_DB"."RUPTURE"                             0 KB       0 rows
+. . imported "ELAX_DB"."SNAPSHOTTIERSPAYANT"                 0 KB       0 rows
+. . imported "ELAX_DB"."TIERSPAYANT"                         0 KB       0 rows
+. . imported "ELAX_DB"."TIERSPAYANTPRODUIT"                  0 KB       0 rows
+. . imported "ELAX_DB"."TIERSPAYANTPRODUITTEMP"              0 KB       0 rows
+. . imported "ELAX_DB"."TIERSPAYANTTEMP"                     0 KB       0 rows
+. . imported "ELAX_DB"."TPPRODUIT"                           0 KB       0 rows
+. . imported "ELAX_DB"."VENCLITIERSPAYANT"                   0 KB       0 rows
+. . imported "ELAX_DB"."VENTETEMP"                           0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/FUNCTIONAL_AND_BITMAP/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/FUNCTIONAL_AND_BITMAP/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTPRODUCTMVT" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTPRODUCTMVT"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTPRODUCTMVT'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('18-DEC-2022 03.07.41.209000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=10'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Suivi de vente et livraison de produits sur l''année'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTPRODUCTMVT"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTPRODUCTMVT"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CREATESNAPSHOTPRODUCTMVT"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTSTOCK" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTSTOCK"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTSTOCK'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('29-OCT-2020 10.45.29.323000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=6,8;BYMINUTE=0,30;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Création de l''historique du stock des produits'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTSTOCK"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTSTOCK"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CREATESNAPSHOTSTOCK"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CLEARDATA" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CLEARDATA"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CLEARDATA'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('28-FEB-2023 09.45.25.626000000 PM UTC','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=8;BYMINUTE=0;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Vider toutes les données temporaire'
+);
+dbms_scheduler.set_attribute('"JOB_CLEARDATA"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CLEARDATA"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CLEARDATA"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_AUTOMATICOPENCASH" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_AUTOMATICOPENCASH"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_AUTOMATICOPENCASH'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('24-DEC-2020 09.30.42.337000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=7;BYMINUTE=30;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Job d''attribution automatique de fond de caisse'
+);
+dbms_scheduler.set_attribute('"JOB_AUTOMATICOPENCASH"','job_priority',1);
+dbms_scheduler.enable('"JOB_AUTOMATICOPENCASH"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATEANNIVERSAIRE" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATEANNIVERSAIRE"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'PROC_CREATEANNIVERSAIRE'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('28-FEB-2023 09.57.07.033000000 PM UTC','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=8;BYMINUTE=0;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Alerte anniversaire'
+);
+dbms_scheduler.set_attribute('"JOB_CREATEANNIVERSAIRE"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CREATEANNIVERSAIRE"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CREATEANNIVERSAIRE"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CLOSUREDIFFUSION" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CLOSUREDIFFUSION"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CLOSUREDIFFUSION'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('24-JUN-2019 07.06.58.408000000 AM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=HOURLY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYMINUTE=30;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Clôture de diffusion'
+);
+dbms_scheduler.set_attribute('"JOB_CLOSUREDIFFUSION"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CLOSUREDIFFUSION"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATENOTIFICATION" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATENOTIFICATION"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATENOTIFICATION'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('25-OCT-2021 12.33.47.275000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=5'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Génération des SMS'
+);
+dbms_scheduler.set_attribute('"JOB_CREATENOTIFICATION"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CREATENOTIFICATION"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CREATENOTIFICATION"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTLIVRAISON" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTLIVRAISON"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTLIVRAISON'
+, number_of_arguments=>1,
+start_date=>TO_TIMESTAMP_TZ('05-JUL-2021 10.10.05.355000000 AM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=30'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Job de suivi des factures fournisseurs'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTLIVRAISON"','job_priority',1);COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATECOMMANDE" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATECOMMANDE"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAXSTOCK_DB.PROC_CREATECOMMANDE'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('26-FEB-2022 06.06.49.279000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=8,14;BYMINUTE=0;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Proposition de commande'
+);
+dbms_scheduler.set_attribute('"JOB_CREATECOMMANDE"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CREATECOMMANDE"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CREATECOMMANDE"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_UPDATESNAPSHOTSTOCK" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_UPDATESNAPSHOTSTOCK"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_UPDATESNAPSHOTSTOCK'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('01-NOV-2020 04.25.56.248000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=15'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Mise à jour des mouvements de stock de produit'
+);
+dbms_scheduler.set_attribute('"JOB_UPDATESNAPSHOTSTOCK"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_UPDATESNAPSHOTSTOCK"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_UPDATESNAPSHOTSTOCK"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATEDESTOCKAGE" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATEDESTOCKAGE"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATEDESTOCKAGE'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('26-DEC-2021 12.49.15.766000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=10'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Déstockage des produits principaux vers leurs détails'
+);
+dbms_scheduler.set_attribute('"JOB_CREATEDESTOCKAGE"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CREATEDESTOCKAGE"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CREATEDESTOCKAGE"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTVENTE" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTVENTE"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTVENTE'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('09-NOV-2021 10.39.02.211000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=10'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Suivi des statistiques des ventes'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTVENTE"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTVENTE"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CREATESNAPSHOTVENTE"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTVHORAIRE" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTVHORAIRE"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTVHORAIRE'
+, number_of_arguments=>1,
+start_date=>TO_TIMESTAMP_TZ('13-JAN-2022 05.37.09.496000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=10'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Mise à jour des statistiques des ventes par tranche horaire'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTVHORAIRE"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTVHORAIRE"','restartable',TRUE);COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTCAYEAR" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTCAYEAR"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTCAYEAR'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('13-FEB-2022 11.08.30.200000000 AM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=10'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Job de suivi du chiffre d''affaire net'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTCAYEAR"','job_priority',1);
+dbms_scheduler.enable('"JOB_CREATESNAPSHOTCAYEAR"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTVSTOCKDAY" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTVSTOCKDAY"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTVSTOCKDAY'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('19-JUN-2021 09.51.33.270000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=0,7,8;BYMINUTE=0,5,30;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Valorisation de stock par jour sur l''année'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTVSTOCKDAY"','job_priority',1);
+dbms_scheduler.enable('"JOB_CREATESNAPSHOTVSTOCKDAY"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTVALEURSTOCK" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTVALEURSTOCK"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTVALEURSTOCK'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('19-JUN-2021 05.22.44.016000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=0,7,8;BYMINUTE=0,5,30;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Suivi de la valorisation de stock'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTVALEURSTOCK"','job_priority',1);
+dbms_scheduler.enable('"JOB_CREATESNAPSHOTVALEURSTOCK"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CREATESNAPSHOTTIERSPAYANT" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CREATESNAPSHOTTIERSPAYANT"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CREATESNAPSHOTTIERSPAYANT'
+, number_of_arguments=>1,
+start_date=>TO_TIMESTAMP_TZ('05-JUL-2021 10.07.36.136000000 AM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=MINUTELY;INTERVAL=30'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Job de suivi des consommations tiers payant'
+);
+dbms_scheduler.set_attribute('"JOB_CREATESNAPSHOTTIERSPAYANT"','job_priority',1);COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CLEARTEMPDATA" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CLEARTEMPDATA"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CLEARTEMPDATA'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('23-NOV-2019 04.02.38.681000000 PM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT;BYHOUR=6,7;BYMINUTE=0,45;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Suppression des données temporaires des différentes tables de chargement'
+);
+dbms_scheduler.set_attribute('"JOB_CLEARTEMPDATA"','job_priority',1);COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCOBJ:"ELAX_DB"."JOB_CLEARSNAPSHOTSTOCK" failed to create with error:
+ORA-27486: insufficient privileges
+
+Failing sql is:
+BEGIN 
+dbms_scheduler.create_job('"JOB_CLEARSNAPSHOTSTOCK"',
+job_type=>'STORED_PROCEDURE', job_action=>
+'ELAX_DB.PROC_CLEARSNAPSHOTSTOCK'
+, number_of_arguments=>0,
+start_date=>TO_TIMESTAMP_TZ('01-MAY-2021 07.51.22.922000000 AM AFRICA/ABIDJAN','DD-MON-RRRR HH.MI.SSXFF AM TZR','NLS_DATE_LANGUAGE=english'), repeat_interval=> 
+'FREQ=DAILY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=7,8,9;BYMINUTE=0;BYSECOND=0'
+, end_date=>NULL,
+job_class=>'"DEFAULT_JOB_CLASS"', enabled=>FALSE, auto_drop=>FALSE,comments=>
+'Suppression des produits n''ayant pas eu de mouvement la veille'
+);
+dbms_scheduler.set_attribute('"JOB_CLEARSNAPSHOTSTOCK"','job_priority',1);
+dbms_scheduler.set_attribute('"JOB_CLEARSNAPSHOTSTOCK"','restartable',TRUE);
+dbms_scheduler.enable('"JOB_CLEARSNAPSHOTSTOCK"');COMMIT; END; 
+
+ 
+ORA-39083: Object type PROCACT_SCHEMA:"ELAX_DB" failed to create with error:
+ORA-27476: "ELAX_DB"."JOB_CREATESNAPSHOTLIVRAISON" does not exist
+
+Failing sql is:
+BEGIN 
+DECLARE 
+CURSOR job_args IS SELECT  a.job_name job_name, a.arg_position position, a.value value FROM scheduler$_job_arg a ;
+ BEGIN
+ FOR arg in job_args LOOP
+ dbms_scheduler.set_job_anydata_value( '"'||arg.job_name||'"',arg.position, arg.value);
+ END LOOP;
+ END;
+DECLARE 
+ CURSOR jobs_to_enable IS SELECT UNIQUE a.job_name
+   FROM scheduler$_job_arg a WHERE a.enabled='T'; 
+ BEGIN
+ FOR job IN jobs_to_enable LOOP
+  dbms_scheduler.enable('"' || job.job_name ||'"');
+ END LOOP;
+ END;
+ EXECUTE IMMEDIATE 'DROP TABLE scheduler$_job_arg' ;COMMIT; END; 
+
+ 
+Job "ELAX_DB"."SYS_IMPORT_FULL_01" completed with 202 error(s) at Wed Dec 11 14:39:16 2024 elapsed 0 00:00:25

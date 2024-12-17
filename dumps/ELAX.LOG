@@ -1,0 +1,135 @@
+;;; 
+Import: Release 11.2.0.1.0 - Production on Mer. Oct. 23 14:25:10 2024
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connecté à : Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Table maître "SYSTEM"."SYS_IMPORT_FULL_01" chargée/déchargée avec succès
+Démarrage de "SYSTEM"."SYS_IMPORT_FULL_01" : system/******** directory=orcl_dir remap_schema=elax_db:elax_db dumpfile=ELAX.DUMP logfile=ELAX.LOG 
+Traitement du type d'objet SCHEMA_EXPORT/USER
+Traitement du type d'objet SCHEMA_EXPORT/SYSTEM_GRANT
+Traitement du type d'objet SCHEMA_EXPORT/ROLE_GRANT
+Traitement du type d'objet SCHEMA_EXPORT/DEFAULT_ROLE
+Traitement du type d'objet SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Traitement du type d'objet SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/TABLE
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . import : "ELAX_DB"."SNAPSHOTPRODUCT"                 111.2 KB     807 lignes
+. . import : "ELAX_DB"."AUDITPRODUCT"                    79.89 KB     584 lignes
+. . import : "ELAX_DB"."PISTEAUDIT"                      48.18 KB     367 lignes
+. . import : "ELAX_DB"."SCHEDULER$_JOB_ARG"              7.476 KB       3 lignes
+. . import : "ELAX_DB"."VENPRODUIT"                      81.44 KB     559 lignes
+. . import : "ELAX_DB"."AGENCE"                          9.210 KB       1 lignes
+. . import : "ELAX_DB"."ALERTE"                          10.89 KB       5 lignes
+. . import : "ELAX_DB"."BILANCAISSE"                     10.07 KB       8 lignes
+. . import : "ELAX_DB"."CASHTRANSACTION"                 25.07 KB      97 lignes
+. . import : "ELAX_DB"."COMMANDE"                        9.812 KB       5 lignes
+. . import : "ELAX_DB"."COMMPRODUIT"                     17.42 KB      61 lignes
+. . import : "ELAX_DB"."CORRECTIONSTOCK"                 8.578 KB       2 lignes
+. . import : "ELAX_DB"."CSTPRODUIT"                      8.640 KB       2 lignes
+. . import : "ELAX_DB"."GROSSISTE"                       11.03 KB       9 lignes
+. . import : "ELAX_DB"."GROSSISTETEMP"                   10.79 KB       8 lignes
+. . import : "ELAX_DB"."INVENTAIRE"                      9.265 KB       1 lignes
+. . import : "ELAX_DB"."INVPRODUIT"                      25.08 KB      88 lignes
+. . import : "ELAX_DB"."LISTE"                           12.18 KB      21 lignes
+. . import : "ELAX_DB"."LIVPRODUIT"                      17.05 KB      58 lignes
+. . import : "ELAX_DB"."LIVRAISON"                       9.781 KB       5 lignes
+. . import : "ELAX_DB"."MODELFACTURE"                    9.054 KB      12 lignes
+. . import : "ELAX_DB"."MODEREGLEMENT"                   8.296 KB       7 lignes
+. . import : "ELAX_DB"."NOTIFICATION"                    16.03 KB       3 lignes
+. . import : "ELAX_DB"."PARAMS"                          11.35 KB      49 lignes
+. . import : "ELAX_DB"."PAYS"                            18.54 KB     248 lignes
+. . import : "ELAX_DB"."PRIVILEGE"                       23.67 KB      83 lignes
+. . import : "ELAX_DB"."PROAGENCE"                       23.91 KB     107 lignes
+. . import : "ELAX_DB"."PRODUIT"                         39.32 KB     107 lignes
+. . import : "ELAX_DB"."PROFILE"                         9.468 KB       4 lignes
+. . import : "ELAX_DB"."PROFILE_PRIVILEGE"               19.54 KB     198 lignes
+. . import : "ELAX_DB"."PROGROSSISTE"                    26.18 KB     107 lignes
+. . import : "ELAX_DB"."RAYON"                           8.140 KB       3 lignes
+. . import : "ELAX_DB"."REPORT"                          22.42 KB      66 lignes
+. . import : "ELAX_DB"."SNAPSHOTCAYEAR"                  22.32 KB       1 lignes
+. . import : "ELAX_DB"."SNAPSHOTLIVRAISON"               11.34 KB       1 lignes
+. . import : "ELAX_DB"."SNAPSHOTPRODUCTBYCA"             16.42 KB      74 lignes
+. . import : "ELAX_DB"."SNAPSHOTPRODUCTMOUVEMENT"        23.40 KB     107 lignes
+. . import : "ELAX_DB"."SNAPSHOTVALEURSTOCK"             35.02 KB       2 lignes
+. . import : "ELAX_DB"."SNAPSHOTVALEURSTOCKDAY"          19.14 KB      26 lignes
+. . import : "ELAX_DB"."SNAPSHOTVENTE"                   11.71 KB       1 lignes
+. . import : "ELAX_DB"."SNAPSHOTVENTEHORAIRE"            49.50 KB     197 lignes
+. . import : "ELAX_DB"."SOCIETE"                         14.89 KB       1 lignes
+. . import : "ELAX_DB"."TTOMODEREGLEMENT"                8.679 KB      25 lignes
+. . import : "ELAX_DB"."TVA"                             7.156 KB       3 lignes
+. . import : "ELAX_DB"."TYPECLIENT"                      8.437 KB       3 lignes
+. . import : "ELAX_DB"."TYPEDIFFUSION"                   8.148 KB       5 lignes
+. . import : "ELAX_DB"."TYPEINVENTAIRE"                  7.656 KB       4 lignes
+. . import : "ELAX_DB"."TYPELISTE"                       8.140 KB       3 lignes
+. . import : "ELAX_DB"."TYPEOPERATION"                   7.703 KB       4 lignes
+. . import : "ELAX_DB"."TYPEREGLEMENT"                   7.320 KB       5 lignes
+. . import : "ELAX_DB"."TYPETIERSPAYANT"                 7.984 KB       2 lignes
+. . import : "ELAX_DB"."TYPEVENTE"                       8.171 KB       5 lignes
+. . import : "ELAX_DB"."UTILISATEUR"                     14.32 KB       7 lignes
+. . import : "ELAX_DB"."VENTE"                              28 KB      97 lignes
+. . import : "ELAX_DB"."BILLETAGE"                           0 KB       0 lignes
+. . import : "ELAX_DB"."CLIALERTE"                           0 KB       0 lignes
+. . import : "ELAX_DB"."CLIENT"                              0 KB       0 lignes
+. . import : "ELAX_DB"."CLIENTTEMP"                          0 KB       0 lignes
+. . import : "ELAX_DB"."CLITIERSPAYANT"                      0 KB       0 lignes
+. . import : "ELAX_DB"."CLITIERSPAYANTTEMP"                  0 KB       0 lignes
+. . import : "ELAX_DB"."COMCLIENT"                           0 KB       0 lignes
+. . import : "ELAX_DB"."COMMPRODUCTTEMP"                     0 KB       0 lignes
+. . import : "ELAX_DB"."COMPTE"                              0 KB       0 lignes
+. . import : "ELAX_DB"."CONTACT"                             0 KB       0 lignes
+. . import : "ELAX_DB"."DIFFUSION"                           0 KB       0 lignes
+. . import : "ELAX_DB"."DIFFUSIONTEMP"                       0 KB       0 lignes
+. . import : "ELAX_DB"."DOCUMENT"                            0 KB       0 lignes
+. . import : "ELAX_DB"."ETIQUETTE"                           0 KB       0 lignes
+. . import : "ELAX_DB"."ETIQUETTEDETAIL"                     0 KB       0 lignes
+. . import : "ELAX_DB"."FACTURE"                             0 KB       0 lignes
+. . import : "ELAX_DB"."FACTURETEMP"                         0 KB       0 lignes
+. . import : "ELAX_DB"."FACVCTIERSPAYANT"                    0 KB       0 lignes
+. . import : "ELAX_DB"."FACVCTIERSPAYANTTEMP"                0 KB       0 lignes
+. . import : "ELAX_DB"."HISNOTIFICATION"                     0 KB       0 lignes
+. . import : "ELAX_DB"."HISVENCLITIERSPAYANT"                0 KB       0 lignes
+. . import : "ELAX_DB"."HISVENPRODUIT"                       0 KB       0 lignes
+. . import : "ELAX_DB"."HISVENTE"                            0 KB       0 lignes
+. . import : "ELAX_DB"."INVPRODUITTEMP"                      0 KB       0 lignes
+. . import : "ELAX_DB"."LOT"                                 0 KB       0 lignes
+. . import : "ELAX_DB"."LOTDETAIL"                           0 KB       0 lignes
+. . import : "ELAX_DB"."NOTIFICATIONTEMP"                    0 KB       0 lignes
+. . import : "ELAX_DB"."OPEFACVCTIERSPAYANT"                 0 KB       0 lignes
+. . import : "ELAX_DB"."OPERATION"                           0 KB       0 lignes
+. . import : "ELAX_DB"."OUVERTURECAISSE"                     0 KB       0 lignes
+. . import : "ELAX_DB"."PERIME"                              0 KB       0 lignes
+. . import : "ELAX_DB"."PERPRODUIT"                          0 KB       0 lignes
+. . import : "ELAX_DB"."PRODUITTEMP"                         0 KB       0 lignes
+. . import : "ELAX_DB"."RAYONTEMP"                           0 KB       0 lignes
+. . import : "ELAX_DB"."RETOURFOURNISSEUR"                   0 KB       0 lignes
+. . import : "ELAX_DB"."RFOPRODUIT"                          0 KB       0 lignes
+. . import : "ELAX_DB"."RFOPRODUITTEMP"                      0 KB       0 lignes
+. . import : "ELAX_DB"."RUPTURE"                             0 KB       0 lignes
+. . import : "ELAX_DB"."SNAPSHOTTIERSPAYANT"                 0 KB       0 lignes
+. . import : "ELAX_DB"."TIERSPAYANT"                         0 KB       0 lignes
+. . import : "ELAX_DB"."TIERSPAYANTPRODUIT"                  0 KB       0 lignes
+. . import : "ELAX_DB"."TIERSPAYANTPRODUITTEMP"              0 KB       0 lignes
+. . import : "ELAX_DB"."TIERSPAYANTTEMP"                     0 KB       0 lignes
+. . import : "ELAX_DB"."TPPRODUIT"                           0 KB       0 lignes
+. . import : "ELAX_DB"."VENCLITIERSPAYANT"                   0 KB       0 lignes
+. . import : "ELAX_DB"."VENTETEMP"                           0 KB       0 lignes
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/COMMENT
+Traitement du type d'objet SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Traitement du type d'objet SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Traitement du type d'objet SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Traitement du type d'objet SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+ORA-39082: Type d'objet ALTER_PROCEDURE:"ELAX_DB"."PROC_CREATESNAPSHOTPRODUCTMVT" créé avec des avertissements de compilation
+Traitement du type d'objet SCHEMA_EXPORT/VIEW/VIEW
+Traitement du type d'objet SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/INDEX/FUNCTIONAL_AND_BITMAP/INDEX
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/FUNCTIONAL_AND_BITMAP/INDEX_STATISTICS
+Traitement du type d'objet SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Traitement du type d'objet SCHEMA_EXPORT/POST_SCHEMA/PROCOBJ
+Traitement du type d'objet SCHEMA_EXPORT/POST_SCHEMA/PROCACT_SCHEMA
+Travail "SYSTEM"."SYS_IMPORT_FULL_01" terminé avec 1 erreur(s) à 14:25:43
